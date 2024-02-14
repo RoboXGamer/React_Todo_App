@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+#root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  place-content: start center;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+form input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+ul {
+  list-style: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+li {
+  border-bottom: 1px solid white;
+  padding: 0.25rem 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: coral;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
